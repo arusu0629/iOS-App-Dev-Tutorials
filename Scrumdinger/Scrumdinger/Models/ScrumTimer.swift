@@ -111,6 +111,7 @@ final class ScrumTimer: ObservableObject {
             self.secondsElapsed = secondsPerSpeaker * speakerIndex + secondsElapsedForSpeaker
             // TODO: ここ return するだけで良いの？
             guard secondsElapsed <= secondsPerSpeaker else {
+                print("$$$ secondsElapsed <= secondsPerSpeaker")
                 return
             }
             secondsRemaining = max(lengthInSeconds - self.secondsElapsed, 0)

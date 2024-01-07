@@ -13,6 +13,8 @@
 		2F729CB92B494D90005C2738 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F729CB82B494D90005C2738 /* ScrumProgressViewStyle.swift */; };
 		2F729CBB2B494E7B005C2738 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F729CBA2B494E7B005C2738 /* ScrumTimer.swift */; };
 		2F729CBD2B4A3EA2005C2738 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F729CBC2B4A3EA2005C2738 /* MeetingFooterView.swift */; };
+		2F729CBF2B4A4EF4005C2738 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F729CBE2B4A4EF4005C2738 /* AVPlayer+Ding.swift */; };
+		2F729CC22B4A4F63005C2738 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2F729CC12B4A4F63005C2738 /* ding.wav */; };
 		2FBC112E2B47A79B00B12BD7 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBC112D2B47A79B00B12BD7 /* ScrumdingerApp.swift */; };
 		2FBC11302B47A79B00B12BD7 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBC112F2B47A79B00B12BD7 /* MeetingView.swift */; };
 		2FBC11322B47A79E00B12BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBC11312B47A79E00B12BD7 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		2F729CB82B494D90005C2738 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		2F729CBA2B494E7B005C2738 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		2F729CBC2B4A3EA2005C2738 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		2F729CBE2B4A4EF4005C2738 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		2F729CC12B4A4F63005C2738 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		2FBC112A2B47A79B00B12BD7 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBC112D2B47A79B00B12BD7 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		2FBC112F2B47A79B00B12BD7 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2F729CC02B4A4F48005C2738 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F729CC12B4A4F63005C2738 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2FBC11212B47A79B00B12BD7 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 		2FBC112C2B47A79B00B12BD7 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				2F729CC02B4A4F48005C2738 /* Resources */,
 				2FBC11312B47A79E00B12BD7 /* Assets.xcassets */,
 				2FBC113B2B47AFAF00B12BD7 /* Models */,
 				2FBC11332B47A79E00B12BD7 /* Preview Content */,
@@ -118,6 +131,7 @@
 				2FBC113E2B47B0FA00B12BD7 /* DailyScrum.swift */,
 				2FBC113C2B47AFBD00B12BD7 /* Theme.swift */,
 				2F729CBA2B494E7B005C2738 /* ScrumTimer.swift */,
+				2F729CBE2B4A4EF4005C2738 /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -180,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F729CC22B4A4F63005C2738 /* ding.wav in Resources */,
 				2FBC11352B47A79E00B12BD7 /* Preview Assets.xcassets in Resources */,
 				2FBC11322B47A79E00B12BD7 /* Assets.xcassets in Resources */,
 			);
@@ -207,6 +222,7 @@
 				2FBC112E2B47A79B00B12BD7 /* ScrumdingerApp.swift in Sources */,
 				2F2345172B493DF90055BC1B /* ThemeView.swift in Sources */,
 				2FBC11412B47B39A00B12BD7 /* CardView.swift in Sources */,
+				2F729CBF2B4A4EF4005C2738 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
