@@ -31,6 +31,13 @@ struct MeetingView: View {
         }
         .padding()
         .foregroundStyle(scrum.theme.accentColor)
+        .onAppear {
+            scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
+            scrumTimer.startScrum()
+        }
+        .onDisappear {
+            scrumTimer.stopScrum()
+        }
         .navigationBarTitleDisplayMode(.inline)
     }
 }
