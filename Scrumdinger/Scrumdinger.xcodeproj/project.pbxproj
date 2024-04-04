@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1E087B2BBEA62C001876A3 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E087A2BBEA62C001876A3 /* ErrorWrapper.swift */; };
 		2F2345172B493DF90055BC1B /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2345162B493DF90055BC1B /* ThemeView.swift */; };
 		2F23451A2B493F270055BC1B /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2345192B493F270055BC1B /* ThemePicker.swift */; };
 		2F729CB72B494C03005C2738 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F729CB62B494C03005C2738 /* MeetingHeaderView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F1E087A2BBEA62C001876A3 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		2F2345162B493DF90055BC1B /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		2F2345192B493F270055BC1B /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		2F729CB62B494C03005C2738 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				2F729CBE2B4A4EF4005C2738 /* AVPlayer+Ding.swift */,
 				2F729CC52B4BA382005C2738 /* History.swift */,
 				2F729CC72B4CD748005C2738 /* ScrumStore.swift */,
+				2F1E087A2BBEA62C001876A3 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				2FBC113F2B47B0FA00B12BD7 /* DailyScrum.swift in Sources */,
 				2F729CC82B4CD748005C2738 /* ScrumStore.swift in Sources */,
 				2FBC11472B47DDB900B12BD7 /* DetailView.swift in Sources */,
+				2F1E087B2BBEA62C001876A3 /* ErrorWrapper.swift in Sources */,
 				2F729CB72B494C03005C2738 /* MeetingHeaderView.swift in Sources */,
 				2FBC11492B47F11E00B12BD7 /* DetailEditView.swift in Sources */,
 				2F729CC42B4BA1E5005C2738 /* NewScrumSheet.swift in Sources */,
